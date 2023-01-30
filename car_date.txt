@@ -1,13 +1,14 @@
 Concessionario - auto usate
 
-id                      -intero
-marca_auto              -stringa
-modello_auto            -stringa
-versione                -stringa
-targa                   -stringa
-numero_di_produzione    -intero
-chilometri              -float
-potenza_auto            -intero
-cambio_auto             -stringa
-alimentazione           -stringa
-prezzo                  -float
+id                      -intero     -PRIMARY_KEY   
+marca_auto              -stringa    -VARCHAR(10)
+modello_auto            -stringa    -VARCHAR(10)
+versione                -stringa    -VARCHAR(7)
+targa                   -stringa    -VARCHAR(7)
+numero_di_produzione    -intero     -TEXT
+chilometri              -float      -MEDIUMINT
+potenza_auto            -intero     -SMALL
+cambio_auto             -stringa    -VARCHAR(10)
+alimentazione           -stringa    -VARCHAR(10)
+prezzo                  -float      -DOUBLE(10, 2) (99999999,99) 
+data_di_produzione      -data       -YEAR
