@@ -1,13 +1,13 @@
 Concessionario - auto usate
 
-id 
-marca_auto
-modello_auto
-versione
-targa
-numero_di_produzione
-chilometri
-potenza_auto
-cambio_auto
-alimentazione
-prezzo
+id                      -intero
+marca_auto              -stringa
+modello_auto            -stringa
+versione                -stringa
+targa                   -stringa
+numero_di_produzione    -intero
+chilometri              -float
+potenza_auto            -intero
+cambio_auto             -stringa
+alimentazione           -stringa
+prezzo                  -float
