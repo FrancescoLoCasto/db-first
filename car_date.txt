@@ -1,0 +1,13 @@
+Concessionario - auto usate
+
+id 
+marca_auto
+modello_auto
+versione
+targa
+numero_di_produzione
+chilometri
+potenza_auto
+cambio_auto
+alimentazione
+prezzo
